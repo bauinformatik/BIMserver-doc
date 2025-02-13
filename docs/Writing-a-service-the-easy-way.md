@@ -1,6 +1,6 @@
-[This](Service-Plugin.md) page has a description how to write internal services, but as most internal services seem to either checkin an updated revision, or add extended data, some convenience classes have been written that make it a lot easier to write an internal service. This page describes how to use those classes.
+[This](Service-plugin.md) page has a description how to write internal services, but as most internal services seem to either checkin an updated revision, or add extended data, some convenience classes have been written that make it a lot easier to write an internal service. This page describes how to use those classes.
 
-Make sure to create a [plugin.xml](Plugin-Development.md#so-how-to-develop-a-plugin)
+Make sure to create a [plugin.xml](Plugin-development.md#so-how-to-develop-a-plugin)
 
 # A service that adds extended data
 

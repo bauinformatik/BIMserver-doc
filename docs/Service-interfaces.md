@@ -15,4 +15,4 @@ In BIMserver 1.3/1.4 a lot of methods were moved to interfaces that are prefixed
 
 # Access
 
-Access to these methods is provided through 3 different channels: [Protocol Buffers](Protocol-Buffers.md), [SOAP](SOAP.md) and [JSON](JSON-API.md).
+Access to these methods is provided through 3 different channels: [Protocol Buffers](Protocol-buffers.md), [SOAP](SOAP.md) and [JSON](JSON-API.md).

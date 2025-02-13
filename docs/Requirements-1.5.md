@@ -37,7 +37,7 @@ See [also](Tested-web-containers.md)
 
 # JAR
 
-JAR is a package file format used to aggregate many Java files and connected metadata and resources into one file for distribution. Read more about JAR [here](JAR-Starter.md).
+JAR is a package file format used to aggregate many Java files and connected metadata and resources into one file for distribution. Read more about JAR [here](JAR-starter.md).
 
 Requirements for using JAR files:
 

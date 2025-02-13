@@ -1,4 +1,4 @@
-Protocol Buffers is one of the three available channels to access the methods of the [Service Interfaces](Service-Interfaces.md).
+Protocol Buffers is one of the three available channels to access the methods of the [Service Interfaces](Service-interfaces.md).
 
 # Introduction
 

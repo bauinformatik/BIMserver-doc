@@ -13,7 +13,7 @@ The download method has 4 parameters.
 - `serializerOid`: Tell BIMserver how to serialize the results of the query. See (Acquire serializer).
 - `sync`: Whether this method should return right away (async) or wait for the process to finsh (sync).
 
-More information about [Projects](SProject.md) , [Revisions](SRevision.md) , [Serializers](SSerializerPluginConfiguration.md)
+More information about [Projects](SProject.md) , [Revisions](SRevision.md) , [Serializers](SSerializer-plugin-configuration.md)
 
 # Step 2, downloading the data
 

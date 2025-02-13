@@ -37,7 +37,7 @@ The JavaScript API will communicate via JSON for most of the functions. Only dow
 
 # Using the API
 
-All methods in the [Service Interfaces](Service-Interfaces.md) can be called (make sure you look at the right documentation for your version). You must always use all parameters that are defined. Also when sending complex objects, you should define all the properties of the objects. The first call you will usually do is to login.
+All methods in the [Service Interfaces](Service-interfaces.md) can be called (make sure you look at the right documentation for your version). You must always use all parameters that are defined. Also when sending complex objects, you should define all the properties of the objects. The first call you will usually do is to login.
 
 ```javascript
 bimServerApi.login(username, password, rememberme, function (data) {

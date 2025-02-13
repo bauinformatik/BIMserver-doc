@@ -73,7 +73,7 @@ This will return all IfcWall objects that have a Representation. Could maybe als
 
 These are not direct object-properties, but properties that are attached to the object via IfcPropertySet/IfcPropertySingleValue etc...
 
-This functionality makes the query engine less schema-agnostic, another way of making it easier to query complex properties and also keep the query engine schema-less would be to use a [reusable query block](Reusable-query-Properties.md) for it, for example the [Properties](Reusable-query-Properties.md) block.
+This functionality makes the query engine less schema-agnostic, another way of making it easier to query complex properties and also keep the query engine schema-less would be to use a [reusable query block](Reusable-query-properties.md) for it, for example the [Properties](Reusable-query-properties.md) block.
 
 ![](img/querycomplexproperties.png)
 
@@ -81,7 +81,7 @@ This functionality makes the query engine less schema-agnostic, another way of m
 
 This query first selects all IfcBuildingStorey objects that have the name "Storey 2", which would usually be used to get one single storey (using a GUID here would be better). However this storey is not added to the resultset (note the "exclude" attribute). The Storey is only used as a path to get to the Window/Door objects that are linked to it.
 
-The [Decomposes](Reusable-query-Decomposes.md) and [Contains](Reusable-query-Contains.md) blocks are uses of [reusable query blocks](Reusable-query-blocks.md). These blocks will recurse through the decomposes and contains relations. The objects encountered on the way also excluded (in this case).
+The [Decomposes](Reusable-query-decomposes.md) and [Contains](Reusable-query-contains.md) blocks are uses of [reusable query blocks](Reusable-query-blocks.md). These blocks will recurse through the decomposes and contains relations. The objects encountered on the way also excluded (in this case).
 
 Finally the IfcDoor and IfcWindow objects are selected, those are included in the results.
 

@@ -10,7 +10,7 @@ Elements of a reusable query block:
 
 # List of reusable query blocks
 
-- [Decomposes](Reusable-query-Decomposes.md)
-- [Contains](Reusable-query-Contains.md)
-- [DecomposesContains](Reusable-query-DecomposesContains.md)
-- [Properties](Reusable-query-Properties.md)
+- [Decomposes](Reusable-query-decomposes.md)
+- [Contains](Reusable-query-contains.md)
+- [DecomposesContains](Reusable-query-decomposesContains.md)
+- [Properties](Reusable-query-properties.md)

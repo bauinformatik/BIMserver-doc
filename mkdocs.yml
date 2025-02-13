@@ -54,7 +54,7 @@ copyright: Copyright &copy; 2025 OpensourceBIM/BIMserver
 nav:
   - Home: index.md
   - Get Started:
-      - Quick Guide: Get-Started-Quick-Guide.md
+      - Quick Guide: Get-started-quick-guide.md
       - Requirements:
           - Version 1.2: Requirements-1.2.md
           - Version 1.3: Requirements-1.3.md
@@ -62,13 +62,13 @@ nav:
           - Version 1.4 (2015-09-12): Requirements-1.4---2015-09-12.md
           - Version 1.5: Requirements-1.5.md
       - Download: Download.md
-      - JAR Starter: JAR-Starter.md
+      - JAR Starter: JAR-starter.md
       - Setup: Setup.md
 
   - Deployment:
       - Ubuntu installation: Install-on-Ubuntu-15.md
-      - Windows installation: Tomcat-on-windows.md
-      - Security: Security.md
+      - Windows installation: Tomcat-on-Windows.md
+      - Security: Java-security-manager.md
       - Memory Usage: Memory-usage.md
       - More memory: Memory-and-Java.md
       - Performance statistics: Performance-statistics.md
@@ -76,68 +76,68 @@ nav:
 
   - Developers:
       - Service Interfaces:
-          - Service interfaces: Service-Interfaces.md
+          - Service interfaces: Service-interfaces.md
           - SOAP: SOAP.md
           - JSON: JSON-API.md
-          - Protocol Buffers: Protocol-Buffers.md
+          - Protocol Buffers: Protocol-buffers.md
       - Common Functions:
           - Checkin: Checkin.md
           - Download: Downloading-models.md
       - Data Model:
           - SProject: Eclipse-setup-with-Team-project-set.md
           - SRevision: SRevision.md
-      - Low Level Calls: Low-Level-Calls.md
+      - Low Level Calls: Low-level-calls.md
       - Endpoints: Endpoints.md
 
   - Clients:
       - Java Client:
-          - Java Client: BimServerClient.md
-          - Java Client (Maven): BimServerClientMavenEclipse.md
-      - PHP Client: PHP-Client-Library.md
-      - JavaScript Client: JavaScriptClient.md
+          - Java Client: BIMserver-client.md
+          - Java Client (Maven): BIMserver-client-Maven-Eclipse.md
+      - PHP Client: PHP-client-library.md
+      - JavaScript Client: JavaScript-client.md
 
   - BIMServer Developers:
-      - Plugins in 1.5: Plugins---new-style.md
+      - Plugins in 1.5: Plugins-new-style.md
       - Plugin Development:
-          - Plugin Development: Plugin-Development.md
+          - Plugin Development: Plugin-development.md
           - Serializer Plugin:
-              - Serializer Plugin: Serializer-Plugin.md
-              - XSLT Serializer: XSLT-Serializer.md
-              - BIMsurfer Serializers: BIMsurfer-Serializers.md
-          - Deserializer Plugin: Deserializer-Plugin.md
-          - Model Compare Plugin: Model-Compare-Plugin.md
-          - Model Merge Plugin: Model-Merge-Plugin.md
-          - Query Engine Plugin: Query-Engine-Plugin.md
-          - Render Engine Plugin: Render-Engine-Plugin.md
-          - ObjectIDM Plugin: ObjectIDM-Plugin.md
-          - Schema Plugin: Schema-Plugin.md
-          - Service Plugin: Service-Plugin.md
+              - Serializer Plugin: Serializer-plugin.md
+              - XSLT Serializer: XSLT-serializer.md
+              - BIMsurfer Serializers: BIMsurfer-serializers.md
+          - Deserializer Plugin: Deserializer-plugin.md
+          - Model Compare Plugin: Model-compare-plugin.md
+          - Model Merge Plugin: Model-merge-plugin.md
+          - Query Engine Plugin: Query-engine-plugin.md
+          - Render Engine Plugin: Render-engine-plugin.md
+          - ObjectIDM Plugin: Object-IDM-plugin.md
+          - Schema Plugin: Schema-plugin.md
+          - Service Plugin: Service-plugin.md
       - Eclipse: Eclipse.md
       - Eclipse Modeling Framework: Eclipse-Modeling-Framework.md
       - Embedding: Embedding.md
       - Terminology: Terminology.md
-      - Database/Versioning: Database---Versioning.md
-      - IFC STEP Encoding: IFC-STEP-Encoding.md
+      - Database/Versioning: Database-versioning.md
+      - IFC STEP Encoding: IFC-STEP-encoding.md
       - Communication: Communication.md
       - Global changes in 1.5: Global-changes-in-1.5.md
-      - Writing a service: Writing-a-service,-the-easy-way.md
-      - Services/Notifications: Services-Notifications.md
-      - BIMserver 1.5 Developers: BIMserver-1.5---Developers.md
-      - Extended data: Extended-Data.md
-      - Extended data schema: Extended-Data-Schema.md
+      - Writing a service: Writing-a-service-the-easy-way.md
+      - Services/Notifications: Services-notifications.md
+      - BIMserver 1.5 Developers: BIMserver-1.5-developers.md
+      - Extended data: Extended-data.md
+      - Extended data schema: Extended-data-schema.md
       - Object IDM: Object-IDMs.md
 
   - New developments:
       - New remote service interface: New-remote-service-interface.md
-      - Plugins new: Plugins---New.md
+      - Plugins new: Plugins-new.md
       - Deprecated: Deprecated.md
       - New query language: New-query-langage.md
       - Visual query language:
           - Visual query language: Visual-query-language.md
-          - Contains: Reusable-query-Contains.md
-          - Decomposes: Reusable-query-Decomposes.md
-          - DecomposesContains: Reusable-query-DecomposesContains.md
-          - Properties: Reusable-query-Properties.md
+          - Contains: Reusable-query-contains.md
+          - Decomposes: Reusable-query-decomposes.md
+          - DecomposesContains: Reusable-query-decomposesContains.md
+          - Properties: Reusable-query-properties.md
           - Reusable: Reusable-query-blocks.md
       - Reorganizing BIMserver JavaScript API: Reorganizing-bimserverapi.js.md
 
